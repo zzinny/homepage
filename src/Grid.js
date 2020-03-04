@@ -8,9 +8,11 @@ class Grid extends React.Component {
                 <ul class="grid">
                     <li>
                         <img class="offerImg" src="https://m.media-amazon.com/images/I/8140ceEcf+L._SS500_.jpg" alt="Product Name" />
+                        <p className="album-text">안녕하세요</p>
                     </li>
                     <li>
                         <img class="offerImg" src="https://lh3.googleusercontent.com/proxy/C93ge1EngCQr5m5waI_iLiGYXLynaK1VGmrBzE2MF2MkR_luwawsodpsmSu6ELg7R0uLDKaE6Fl03fZYKrEC" alt="Product Name" />
+                        <p className="album-text">여기도 안녕하세요</p>
                     </li>
                     <li>
                         <img class="offerImg" src="https://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/080/463/170/80463170_1410941472017_1_600x600.JPG" alt="Product Name" />

@@ -16,11 +16,24 @@ li {
 }
   
 .offerImg:hover {
+    opacity: 0.7;
     filter: blur(1px) grayscale(100%);
     -webkit-filter: blur(1px) grayscale(100%);
     -moz-filter: blur(1px) grayscale(100%);
     -o-filter: blur(1px) grayscale(100%);
     -ms-filter: blur(1px) grayscale(100%);
+}
+
+.album-text {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+li:hover .album-text {
+    display: block;
 }
   
 li:hover .offerSocial {
