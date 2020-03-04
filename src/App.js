@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import SlideShow from './SlideShow';
+import Grid from './Grid';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           </div>
       </header>
       <SlideShow />
+      <Grid />
     </div>
   );
 }
