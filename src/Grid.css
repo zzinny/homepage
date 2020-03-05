@@ -1,6 +1,28 @@
 * {
     box-sizing: border-box;
 }
+
+.grid-title {
+  font-size: 1.8rem;
+}
+
+.grid-title:before {
+  content: ' ';
+  background-color: #f1f1f1;
+  height: 10px;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.grid-title:after {
+    content: ' ';
+    background-color: #f1f1f1;
+    height: 10px;
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
   
 li {
     position: relative;

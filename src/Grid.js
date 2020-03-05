@@ -5,6 +5,7 @@ class Grid extends React.Component {
     render() {
         return (
             <div class="grid-container">
+                <p className="grid-title">Listening History</p>
                 <ul class="grid">
                     <li>
                         <img class="offerImg" src="https://m.media-amazon.com/images/I/8140ceEcf+L._SS500_.jpg" alt="Product Name" />
